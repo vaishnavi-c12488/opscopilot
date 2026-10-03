@@ -1,0 +1,26 @@
+{
+    "incident_id": "INC001",
+    "status": "ready",
+    "source": "openstack",
+    "incident_type": "synthetic_vm_operation_failure",
+    "affected_entity": "vm-eval-001",
+    "incident_start_time": "2026-09-29T13:20:20.608701+00:00",
+    "incident_end_time": "2026-09-29T13:20:36.612979+00:00",
+    "ground_truth": "synthetic_vm_operation_failure was intentionally introduced for evaluation.",
+    "expected_keywords": [
+        "VM operation",
+        "failure"
+    ],
+    "expected_evidence": [
+        "opscopilot_cpu_usage_percent",
+        "VM operation",
+        "ERROR"
+    ],
+    "metric_name": "opscopilot_cpu_usage_percent",
+    "log_query": "VM operation failure",
+    "metric_source": "prometheus",
+    "time_aligned": true,
+    "metric_start_time": "2026-09-29T13:20:20.608701+00:00",
+    "metric_end_time": "2026-09-29T13:20:36.612979+00:00",
+    "synthetic_event_count": 5
+}

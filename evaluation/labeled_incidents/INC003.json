@@ -1,0 +1,26 @@
+{
+    "incident_id": "INC003",
+    "status": "ready",
+    "source": "openstack",
+    "incident_type": "bad_deployment_error_spike",
+    "affected_entity": "service-eval-003",
+    "incident_start_time": "2026-09-29T13:21:32.638820+00:00",
+    "incident_end_time": "2026-09-29T13:21:48.644872+00:00",
+    "ground_truth": "bad_deployment_error_spike was intentionally introduced for evaluation.",
+    "expected_keywords": [
+        "deployment",
+        "error"
+    ],
+    "expected_evidence": [
+        "opscopilot_error_rate_percent",
+        "deployment",
+        "ERROR"
+    ],
+    "metric_name": "opscopilot_error_rate_percent",
+    "log_query": "deployment error",
+    "metric_source": "prometheus",
+    "time_aligned": true,
+    "metric_start_time": "2026-09-29T13:21:32.638820+00:00",
+    "metric_end_time": "2026-09-29T13:21:48.644872+00:00",
+    "synthetic_event_count": 5
+}

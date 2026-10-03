@@ -1,0 +1,27 @@
+{
+    "incident_id": "INC005",
+    "status": "ready",
+    "source": "openstack",
+    "incident_type": "cascading_service_failure",
+    "affected_entity": "service-eval-005",
+    "incident_start_time": "2026-09-29T13:22:44.685833+00:00",
+    "incident_end_time": "2026-09-29T13:23:00.690959+00:00",
+    "ground_truth": "cascading_service_failure was intentionally introduced for evaluation.",
+    "expected_keywords": [
+        "cascading",
+        "service",
+        "failure"
+    ],
+    "expected_evidence": [
+        "opscopilot_error_rate_percent",
+        "upstream",
+        "downstream"
+    ],
+    "metric_name": "opscopilot_error_rate_percent",
+    "log_query": "cascading service failure",
+    "metric_source": "prometheus",
+    "time_aligned": true,
+    "metric_start_time": "2026-09-29T13:22:44.685833+00:00",
+    "metric_end_time": "2026-09-29T13:23:00.690959+00:00",
+    "synthetic_event_count": 5
+}

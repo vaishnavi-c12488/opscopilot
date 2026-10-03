@@ -1,0 +1,26 @@
+{
+    "incident_id": "INC007",
+    "status": "ready",
+    "source": "openstack",
+    "incident_type": "storage_pressure",
+    "affected_entity": "vm-eval-007",
+    "incident_start_time": "2026-09-29T13:23:56.737765+00:00",
+    "incident_end_time": "2026-09-29T13:24:12.749155+00:00",
+    "ground_truth": "storage_pressure was intentionally introduced for evaluation.",
+    "expected_keywords": [
+        "disk",
+        "storage"
+    ],
+    "expected_evidence": [
+        "opscopilot_disk_usage_percent",
+        "disk",
+        "I/O"
+    ],
+    "metric_name": "opscopilot_disk_usage_percent",
+    "log_query": "disk storage",
+    "metric_source": "prometheus",
+    "time_aligned": true,
+    "metric_start_time": "2026-09-29T13:23:56.737765+00:00",
+    "metric_end_time": "2026-09-29T13:24:12.749155+00:00",
+    "synthetic_event_count": 5
+}

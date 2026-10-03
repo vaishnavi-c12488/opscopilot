@@ -1,0 +1,26 @@
+{
+    "incident_id": "INC004",
+    "status": "ready",
+    "source": "openstack",
+    "incident_type": "latency_degradation",
+    "affected_entity": "service-eval-004",
+    "incident_start_time": "2026-09-29T13:22:08.669397+00:00",
+    "incident_end_time": "2026-09-29T13:22:24.674755+00:00",
+    "ground_truth": "latency_degradation was intentionally introduced for evaluation.",
+    "expected_keywords": [
+        "latency",
+        "degradation"
+    ],
+    "expected_evidence": [
+        "opscopilot_request_latency_seconds",
+        "latency",
+        "slow"
+    ],
+    "metric_name": "opscopilot_request_latency_seconds",
+    "log_query": "latency degradation",
+    "metric_source": "prometheus",
+    "time_aligned": true,
+    "metric_start_time": "2026-09-29T13:22:08.669397+00:00",
+    "metric_end_time": "2026-09-29T13:22:24.674755+00:00",
+    "synthetic_event_count": 5
+}

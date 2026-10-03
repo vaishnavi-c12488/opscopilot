@@ -1,0 +1,26 @@
+{
+    "incident_id": "INC006",
+    "status": "ready",
+    "source": "openstack",
+    "incident_type": "cpu_saturation",
+    "affected_entity": "vm-eval-006",
+    "incident_start_time": "2026-09-29T13:23:20.721548+00:00",
+    "incident_end_time": "2026-09-29T13:23:36.728462+00:00",
+    "ground_truth": "cpu_saturation was intentionally introduced for evaluation.",
+    "expected_keywords": [
+        "CPU",
+        "saturation"
+    ],
+    "expected_evidence": [
+        "opscopilot_cpu_usage_percent",
+        "CPU",
+        "timeout"
+    ],
+    "metric_name": "opscopilot_cpu_usage_percent",
+    "log_query": "CPU saturation",
+    "metric_source": "prometheus",
+    "time_aligned": true,
+    "metric_start_time": "2026-09-29T13:23:20.721548+00:00",
+    "metric_end_time": "2026-09-29T13:23:36.728462+00:00",
+    "synthetic_event_count": 5
+}

@@ -1,0 +1,27 @@
+# UI
+streamlit>=1.40
+altair>=5.0
+
+# Data handling
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+
+# API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.0
+
+# Agent / LLM
+langgraph>=0.2
+langchain-ollama>=0.2
+
+# Vector retrieval
+qdrant-client>=1.19
+sentence-transformers>=6.0
+
+# Prometheus metrics
+prometheus-client>=0.20
+
+# Testing
+pytest>=8.0

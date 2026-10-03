@@ -1,0 +1,26 @@
+{
+    "incident_id": "INC002",
+    "status": "ready",
+    "source": "openstack",
+    "incident_type": "memory_leak_oom",
+    "affected_entity": "vm-eval-002",
+    "incident_start_time": "2026-09-29T13:20:56.625899+00:00",
+    "incident_end_time": "2026-09-29T13:21:12.630436+00:00",
+    "ground_truth": "memory_leak_oom was intentionally introduced for evaluation.",
+    "expected_keywords": [
+        "memory",
+        "OOM"
+    ],
+    "expected_evidence": [
+        "opscopilot_memory_usage_percent",
+        "memory",
+        "OOM"
+    ],
+    "metric_name": "opscopilot_memory_usage_percent",
+    "log_query": "memory OOM",
+    "metric_source": "prometheus",
+    "time_aligned": true,
+    "metric_start_time": "2026-09-29T13:20:56.625899+00:00",
+    "metric_end_time": "2026-09-29T13:21:12.630436+00:00",
+    "synthetic_event_count": 5
+}
